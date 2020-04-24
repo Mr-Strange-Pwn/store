@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Product from './product'
 import Title from './title'
-import { Consumer } from '../index'
+import { Consumer } from '../context'
 
 
 class ProductList extends Component {
@@ -15,7 +15,7 @@ class ProductList extends Component {
                 <Consumer>
                     {(value)=>{
                         console.log(value)
-                        return ( value.map((product , index)=><Product key={index} product={product} />) )
+                        return ( value.products.map((product , index)=><Product key={index} product={product} />) )
                         
                     }}
                 </Consumer>

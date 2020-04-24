@@ -6,9 +6,10 @@ import { Switch ,Route} from 'react-router-dom'
 
 import NavBar from './components/navbar'
 import ProductList from './components/productList'
-import Cart from './components/cart'
+import Cart from './components/cart/cart'
 import Details from './components/details'
 import Default from './components/default'
+import Model from './components/model'
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/details" component={Details} />
         <Route component={Default} />
       </Switch>
+      <Model/>
     </React.Fragment>
   );
 }

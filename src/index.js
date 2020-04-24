@@ -4,24 +4,18 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import {BrowserRouter as Router } from 'react-router-dom'
-import { storeProducts } from './data'
+import ProductProvider from './context'
 
 
-
-const context = React.createContext()
-
-export const Provider = context.Provider
-export const Consumer = context.Consumer
 
 ReactDOM.render(
   <React.StrictMode>
-    <Provider value={storeProducts} >      
+    <ProductProvider>      
       <Router>
         <App />
       </Router>
-      </Provider>
-
-   </React.StrictMode>,
+      </ProductProvider>
+  </React.StrictMode>,
   document.getElementById('root')
 );
 
