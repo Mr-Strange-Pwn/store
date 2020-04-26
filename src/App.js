@@ -20,6 +20,7 @@ function App() {
         <Route exact path="/" component={ProductList} />
         <Route path="/cart" component={Cart} />
         <Route path="/details" component={Details} />
+        <Route path="/pawan" component={Default} />
         <Route component={Default} />
       </Switch>
       <Model/>

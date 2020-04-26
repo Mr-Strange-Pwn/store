@@ -92,7 +92,7 @@ export const storeProducts = [
     price: 200,
     company: "apple",
     info:
-      " ya paisha garedoon k kaam aaiga 😆 ya fir maire 😋  by the way you can wisit me myy link is on console  ",
+      " ishka paisha gareboon k kaam aaiga 😆 ya fir maire 😋  by the way you can wisit me my link is on console  ",
     inCart: false,
     count: 0,
     total: 0
