@@ -23,7 +23,7 @@ const Model = () => {
                 <h1>item added to cart</h1>
                 <img src={img} className="img-fluid" alt="product" />
                 <h5>{title}</h5>
-                <h5 className="text-muted">price: $ {price} </h5>
+                <h5 className="text-muted">price: ₹ {price} </h5>
                 <Link to='/'>
                     <ButtonContainer onClick={()=> closeModel()}>
                         store
