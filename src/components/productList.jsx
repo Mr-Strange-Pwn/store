@@ -14,7 +14,7 @@ class ProductList extends Component {
             <div className="row">
                 <Consumer>
                     {(value)=>{
-                        console.log(value)
+                       
                         return ( value.products.map((product , index)=><Product key={index} product={product} />) )
                         
                     }}

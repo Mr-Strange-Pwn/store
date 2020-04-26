@@ -77,7 +77,7 @@ export const storeProducts = [
     id: 7,
     title: "Iphone 7",
     img: "img/product-7.png",
-    price: 30,
+    price: 30000,
     company: "apple",
     info:
       " Loaded with the all-new dual 12MP cameras, the Apple iPhone 7 is one of the most colourful smartphones by the brand. The device comprises of the fastest processors and strong battery life with an added advantage of water and splash resistance, so you don?t have to worry about the spills anymore. Every bit of the iPhone 7 is as powerful as it looks, the device is powered by Quad-core (2.34 GHz, Dual-core, Hurricane + 1.1 GHz, Dual-core, Zephyr) processor paired with 2 GB of RAM. For exceptional graphical performance and allowing users to play games smoothly, this phone is equipped with a PowerVR GT7600 Plus GPU. Its function on iOS v10 operating system and features a 4.7\" (11.94 cm) display, having a screen resolution of 750 x 1334 pixels. The iPhone 7 skins in an elegantly designed body with easy grip with a matte finish owing to the bead-blasted aluminum is used in its body. ",
@@ -89,7 +89,7 @@ export const storeProducts = [
     id: 8,
     title: "Smashed Iphone",
     img: "img/product-8.png",
-    price: 2,
+    price: 200,
     company: "apple",
     info:
       " ya paisha garedoon k kaam aaiga 😆 ya fir maire 😋  by the way you can wisit me myy link is on console  ",
