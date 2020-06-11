@@ -10,6 +10,7 @@ import Cart from './components/cart/cart'
 import Details from './components/details'
 import Default from './components/default'
 import Model from './components/model'
+import RegisterForm from './components/register'
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/cart" component={Cart} />
         <Route path="/details" component={Details} />
         <Route path="/pawan" component={Default} />
+        <Route path="/register" component={RegisterForm} />
         <Route component={Default} />
       </Switch>
       <Model/>
