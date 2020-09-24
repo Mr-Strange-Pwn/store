@@ -22,6 +22,7 @@ const RegisterForm = () => {
     setEmail("");
     setPassword("");
     setUserName("");
+    setErrors([]);
     // axios
     //   .post("http://localhost:2000/user/register", data)
     //   .then((response) => {
