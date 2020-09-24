@@ -3,7 +3,6 @@ import "./auth.css";
 import Login from "./login";
 import Register from "./register";
 import AppDetail from "./appdetail";
-import { Row, Col } from "react-bootstrap";
 import { ButtonContainer } from "../button";
 
 const Authentication = () => {

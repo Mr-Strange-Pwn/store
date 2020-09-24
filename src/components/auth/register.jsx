@@ -1,5 +1,4 @@
 import React from "react";
-import axios from "axios";
 import validator from "validator";
 import { ButtonContainer } from "../button";
 import { useState } from "react";

@@ -1,9 +1,8 @@
-import React, { useState, useEffect, useContext } from "react";
+import React, { useContext } from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Switch, Route } from "react-router-dom";
 import { context } from "./context";
-import axios from "axios";
 
 import NavBar from "./components/navbar";
 import ProductList from "./components/productList";

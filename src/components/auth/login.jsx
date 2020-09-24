@@ -2,8 +2,6 @@ import React from "react";
 import { Form } from "react-bootstrap";
 import { ButtonContainer } from "../button";
 import { useState } from "react";
-import axios from "axios";
-import { Link } from "react-router-dom";
 
 import { context } from "../../context";
 
