@@ -13,4 +13,6 @@ router.post('/login', userController.login)
 
 router.get("/shopdata", dataController.product)
 
+router.get('/auth', userController.auth)
+
 module.exports = router

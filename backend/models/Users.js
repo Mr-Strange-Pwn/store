@@ -6,6 +6,7 @@ const bcrypt = require('bcrypt')
 const Users = function(data){
     this.data = data
     this.errors = []
+    this.auth = false
 }
 
 
@@ -76,7 +77,7 @@ Users.prototype.login = function(){
     this.cleanUp()
     usersCollection.findOne({username : this.data.username}).then(attemptedUser =>{
         if(attemptedUser && bcrypt.compareSync(this.data.password , attemptedUser.password)){
-            resolve("login success !!!")
+         resolve("login success !!!")   
         }else{
             reject("invalid useraname and password !!!")
         }
@@ -84,7 +85,7 @@ Users.prototype.login = function(){
         reject(" please try again letter")
     })
   })
-    
+
 }
 
 module.exports = Users
