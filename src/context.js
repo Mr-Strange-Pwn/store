@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { storeProducts, detailProduct } from "./data";
-import axios from "axios";
 
 export const context = React.createContext();
 
